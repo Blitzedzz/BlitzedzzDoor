@@ -1,3 +1,7 @@
+-- GUI to Lua 
+-- Version: 0.0.3
+
+-- Instances:
 
 local Frame = Instance.new("ImageLabel")
 local TextLabel_1 = Instance.new("TextLabel")
@@ -8,7 +12,7 @@ Frame.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 Frame.BackgroundColor3 = Color3.fromRGB(255,255,255)
 Frame.BackgroundTransparency = 1
 Frame.BorderColor3 = Color3.fromRGB(27,42,53)
-Frame.Position = UDim2.new(0.851468027, 0,0.873274684, 0)
+Frame.Position = UDim2.new(0.137305677, 0,0.396486729, 0)
 Frame.Size = UDim2.new(0, 163,0, 84)
 Frame.Image = "rbxassetid://3570695787"
 Frame.ImageColor3 = Color3.fromRGB(30,30,30)
@@ -29,7 +33,7 @@ TextLabel_1.TextScaled = true
 TextLabel_1.TextSize = 51
 TextLabel_1.TextWrapped = true
 
-local function vzwxRJmxsiziUxny()
+local function zYnVhwcbOSDiqRJM()
 local script = Instance.new("LocalScript",Frame)
 local UIS = game:GetService("UserInputService")
 function dragify(Frame)
@@ -69,12 +73,12 @@ end
 dragify(script.Parent)
 
 end
-coroutine.wrap(vzwxRJmxsiziUxny)()
+coroutine.wrap(zYnVhwcbOSDiqRJM)()
 
 
-local function WXRhsqKxQMqEMUqG()
+local function grnyExyfujiKvdse()
 local script = Instance.new("LocalScript",Frame)
 wait(10)
 script.Parent = false
 end
-coroutine.wrap(WXRhsqKxQMqEMUqG)()
+coroutine.wrap(grnyExyfujiKvdse)()
